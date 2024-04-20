@@ -5,7 +5,7 @@
 
 1. 拉取仓库
 ```shell
-git clone 仓库地址
+git clone https://github.com/MoMingRose/WxReadDetect
 ```
 
 2. 构建并部署 Docker 容器
