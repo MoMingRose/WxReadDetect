@@ -1,0 +1,11 @@
+version: "3.0"
+services:
+  wx-read-detect:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: wx-read-detect
+    ports:
+      - "16699:16699"
+    volumes:
+      - /opt/docker/WxReadDetect:/root/WxReadDetect
