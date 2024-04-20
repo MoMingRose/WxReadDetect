@@ -12,7 +12,7 @@ from fastapi import APIRouter, WebSocket, WebSocketDisconnect
 from starlette.requests import Request
 from starlette.responses import HTMLResponse
 
-callback_api_router = APIRouter()
+callback_api_router = APIRouter(prefix="/ct")
 
 
 class ConnectionManager:
