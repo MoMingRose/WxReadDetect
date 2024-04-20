@@ -11,11 +11,14 @@ git clone https://github.com/MoMingRose/WxReadDetect
 2. 构建并部署 Docker 容器
 
 ```shell
+# 进入项目目录
+cd WxReadDetect
+
 # 可以先进行镜像的构建，也可以直接使用docker compose 或者 docker-compose
-docker compose up -d
+docker compose up --build -d
 
 # 老版本可以使用
-# docker-compose up -d
+# docker-compose up --build -d
 ```
 
 ## 二、使用方法

@@ -9,3 +9,4 @@ services:
       - "16699:16699"
     volumes:
       - /opt/docker/WxReadDetect:/root/WxReadDetect
+    restart: always
